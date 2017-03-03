@@ -9,8 +9,15 @@ for (var i = 0; i < 10; i++) {
   console.log(myArray);
 
 
-  (function() {
-   var a = b = 5;
-})();
+// There are different ways to convert number to string :
 
-console.log(b);
+// String literal -> str = "" + num + "";
+// String constructor -> str = String(num);
+// toString -> str = num.toString();
+// String Literal simple -> str = "" + num
+
+var num = 3456;
+var n = "";
+
+num = num + 
+
