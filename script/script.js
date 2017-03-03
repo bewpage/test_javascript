@@ -97,7 +97,7 @@ for(var i=0; i<n; i++) {
 	console.log(pattern);
 };
 
-for(var i=n-1; i>0; i--) {
+for(var i=n-1; i>=0; i--) {
 	pattern = "";
 
 	for(var j=0; j<n; j++) {
