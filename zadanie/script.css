@@ -1,0 +1,30 @@
+ul#navigation > li {
+  display: inline;
+  width: 75px;
+  background: yellow;
+  text-decoration: none;
+}
+
+#navigation li:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+#navigation li:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+#zebra p:nth-child(odd) {
+  background: gray;
+}
+
+#other div:first-child {
+  background: green;
+}
+
+#other div:last-child {
+  background: blue;
+}
+
+#from_end div:nth-last-child(odd) {
+  background: orange;
+}
